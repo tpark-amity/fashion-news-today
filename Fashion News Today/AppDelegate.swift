@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        UpstraUIKit.UpstraUIKitManager.setup("b3babb0c3889a16644338e185a0d14dbd30a85eabd603a7f")
+        UpstraUIKit.UpstraUIKitManager.setup("CONTACT_US_FOR_API_KEY")
         UpstraUIKit.UpstraUIKitManager.registerDevice(withUserId: "test_user", displayName: "Test")
         
         return true
