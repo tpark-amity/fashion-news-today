@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "newspaper-icon-vector-23190135.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "newspaper-icon-vector-23190134.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "newspaper-icon-vector-23190133.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

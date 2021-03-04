@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import UpstraUIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,7 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        UpstraUIKit.UpstraUIKitManager.setup("b3babb0c3889a16644338e185a0d14dbd30a85eabd603a7f")
+        UpstraUIKit.UpstraUIKitManager.registerDevice(withUserId: "test_user", displayName: "Test")
+        
         return true
     }
 
